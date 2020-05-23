@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="json1" type="kotlin.js">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Covid-19/src/com/company/json-20190722.jar!/org/json" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
