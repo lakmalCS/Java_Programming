@@ -26,7 +26,8 @@ public class DataReader {
         	String fileContent = new String(Files.readAllBytes(Paths.get(filePath)));
             JSONObject obj  = new JSONObject(fileContent);
             JSONArray arr = obj.getJSONArray(JSON_ARRAY);
-            
+
+            //print data,reported cases and deaths
             System.out.println("\tDate \t|\tReported Cases\t|\tDeaths");
             
             for(int i = 0; i < arr.length(); i ++) {
